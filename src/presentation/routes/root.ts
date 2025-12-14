@@ -1,4 +1,4 @@
-import * as z from "zod";
+import { z } from "zod";
 import { type FastifyInstance } from "fastify";
 import { type ZodTypeProvider } from "fastify-type-provider-zod";
 import { defaultErrorsSchema } from "../utils/errors";

@@ -1,4 +1,4 @@
-import z from "zod";
+import { z } from "zod";
 
 export const configSchema = z.object({
   env: z.union([z.literal("development"), z.literal("test")]),
